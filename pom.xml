@@ -22,9 +22,11 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+            <version>3.4.2</version>
         </dependency>
        <!--
         通义
@@ -62,7 +64,6 @@
             <scope>test</scope>
         </dependency>
 
-
     </dependencies>
 
     <dependencyManagement>
@@ -93,6 +94,10 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
+        </repository>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
         </repository>
     </repositories>
 

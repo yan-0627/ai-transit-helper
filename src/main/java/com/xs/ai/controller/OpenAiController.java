@@ -22,7 +22,7 @@ import static org.springframework.ai.chat.client.advisor.AbstractChatMemoryAdvis
 
 
 /**
- * @author xushu
+ * @author tan
  * @version 1.0
  * @description:
  */
